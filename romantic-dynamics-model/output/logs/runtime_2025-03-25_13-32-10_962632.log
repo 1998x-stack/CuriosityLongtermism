@@ -1,0 +1,66 @@
+2025-03-25 13:32:12 | INFO | 启动主分析流程
+2025-03-25 13:32:12 | INFO | 初始化系统: 热切的海狸 vs 热切的海狸
+2025-03-25 13:32:12 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:12 | INFO | 参数组合 1: 热切的海狸 vs 热切的海狸 的稳定性分析结果: {'eigenvalues': array([0.8, 0.2]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '不稳定结点'}
+2025-03-25 13:32:13 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_0.png
+2025-03-25 13:32:13 | INFO | 初始化系统: 热切的海狸 vs 自恋的傻瓜
+2025-03-25 13:32:13 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:13 | INFO | 参数组合 2: 热切的海狸 vs 自恋的傻瓜 的稳定性分析结果: {'eigenvalues': array([0.4+0.37416574j, 0.4-0.37416574j]), 'is_stable': False, 'has_oscillation': True, 'equilibrium_type': '不稳定排斥焦点'}
+2025-03-25 13:32:13 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_1.png
+2025-03-25 13:32:13 | INFO | 初始化系统: 热切的海狸 vs 谨慎的爱人
+2025-03-25 13:32:13 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:13 | INFO | 参数组合 3: 热切的海狸 vs 谨慎的爱人 的稳定性分析结果: {'eigenvalues': array([ 0.5244998, -0.7244998]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:13 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_2.png
+2025-03-25 13:32:13 | INFO | 初始化系统: 热切的海狸 vs 隐士
+2025-03-25 13:32:13 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:13 | INFO | 参数组合 4: 热切的海狸 vs 隐士 的稳定性分析结果: {'eigenvalues': array([0.2+0.34641016j, 0.2-0.34641016j]), 'is_stable': False, 'has_oscillation': True, 'equilibrium_type': '不稳定排斥焦点'}
+2025-03-25 13:32:14 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_3.png
+2025-03-25 13:32:14 | INFO | 初始化系统: 自恋的傻瓜 vs 热切的海狸
+2025-03-25 13:32:14 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:14 | INFO | 参数组合 5: 自恋的傻瓜 vs 热切的海狸 的稳定性分析结果: {'eigenvalues': array([0.4+0.37416574j, 0.4-0.37416574j]), 'is_stable': False, 'has_oscillation': True, 'equilibrium_type': '不稳定排斥焦点'}
+2025-03-25 13:32:14 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_4.png
+2025-03-25 13:32:14 | INFO | 初始化系统: 自恋的傻瓜 vs 自恋的傻瓜
+2025-03-25 13:32:14 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:14 | INFO | 参数组合 6: 自恋的傻瓜 vs 自恋的傻瓜 的稳定性分析结果: {'eigenvalues': array([ 0.8, -0.2]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:15 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_5.png
+2025-03-25 13:32:15 | INFO | 初始化系统: 自恋的傻瓜 vs 谨慎的爱人
+2025-03-25 13:32:15 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:15 | INFO | 参数组合 7: 自恋的傻瓜 vs 谨慎的爱人 的稳定性分析结果: {'eigenvalues': array([ 0.2472136, -0.6472136]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:15 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_6.png
+2025-03-25 13:32:15 | INFO | 初始化系统: 自恋的傻瓜 vs 隐士
+2025-03-25 13:32:15 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:15 | INFO | 参数组合 8: 自恋的傻瓜 vs 隐士 的稳定性分析结果: {'eigenvalues': array([ 0.7244998, -0.5244998]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:16 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_7.png
+2025-03-25 13:32:16 | INFO | 初始化系统: 谨慎的爱人 vs 热切的海狸
+2025-03-25 13:32:16 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:16 | INFO | 参数组合 9: 谨慎的爱人 vs 热切的海狸 的稳定性分析结果: {'eigenvalues': array([-0.7244998,  0.5244998]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:16 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_8.png
+2025-03-25 13:32:16 | INFO | 初始化系统: 谨慎的爱人 vs 自恋的傻瓜
+2025-03-25 13:32:16 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:16 | INFO | 参数组合 10: 谨慎的爱人 vs 自恋的傻瓜 的稳定性分析结果: {'eigenvalues': array([-0.6472136,  0.2472136]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:16 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_9.png
+2025-03-25 13:32:16 | INFO | 初始化系统: 谨慎的爱人 vs 谨慎的爱人
+2025-03-25 13:32:16 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:16 | INFO | 参数组合 11: 谨慎的爱人 vs 谨慎的爱人 的稳定性分析结果: {'eigenvalues': array([-0.6, -0.8]), 'is_stable': True, 'has_oscillation': False, 'equilibrium_type': '稳定结点'}
+2025-03-25 13:32:17 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_10.png
+2025-03-25 13:32:17 | INFO | 初始化系统: 谨慎的爱人 vs 隐士
+2025-03-25 13:32:17 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:17 | INFO | 参数组合 12: 谨慎的爱人 vs 隐士 的稳定性分析结果: {'eigenvalues': array([-0.54142136, -0.25857864]), 'is_stable': True, 'has_oscillation': False, 'equilibrium_type': '稳定结点'}
+2025-03-25 13:32:17 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_11.png
+2025-03-25 13:32:17 | INFO | 初始化系统: 隐士 vs 热切的海狸
+2025-03-25 13:32:17 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:17 | INFO | 参数组合 13: 隐士 vs 热切的海狸 的稳定性分析结果: {'eigenvalues': array([0.2+0.34641016j, 0.2-0.34641016j]), 'is_stable': False, 'has_oscillation': True, 'equilibrium_type': '不稳定排斥焦点'}
+2025-03-25 13:32:18 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_12.png
+2025-03-25 13:32:18 | INFO | 初始化系统: 隐士 vs 自恋的傻瓜
+2025-03-25 13:32:18 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:18 | INFO | 参数组合 14: 隐士 vs 自恋的傻瓜 的稳定性分析结果: {'eigenvalues': array([-0.5244998,  0.7244998]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:18 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_13.png
+2025-03-25 13:32:18 | INFO | 初始化系统: 隐士 vs 谨慎的爱人
+2025-03-25 13:32:18 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:18 | INFO | 参数组合 15: 隐士 vs 谨慎的爱人 的稳定性分析结果: {'eigenvalues': array([-0.25857864, -0.54142136]), 'is_stable': True, 'has_oscillation': False, 'equilibrium_type': '稳定结点'}
+2025-03-25 13:32:19 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_14.png
+2025-03-25 13:32:19 | INFO | 初始化系统: 隐士 vs 隐士
+2025-03-25 13:32:19 | SUCCESS | 微分方程求解成功
+2025-03-25 13:32:19 | INFO | 参数组合 16: 隐士 vs 隐士 的稳定性分析结果: {'eigenvalues': array([ 0.6, -0.8]), 'is_stable': False, 'has_oscillation': False, 'equilibrium_type': '鞍点'}
+2025-03-25 13:32:19 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_15.png
+2025-03-25 13:32:19 | SUCCESS | 分析流程完成

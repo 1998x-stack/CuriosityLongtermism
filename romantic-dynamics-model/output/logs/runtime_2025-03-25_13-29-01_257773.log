@@ -1,0 +1,50 @@
+2025-03-25 13:29:02 | INFO | 启动主分析流程
+2025-03-25 13:29:02 | INFO | 初始化系统: 热切的海狸 vs 热切的海狸
+2025-03-25 13:29:02 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:03 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_0.png
+2025-03-25 13:29:03 | INFO | 初始化系统: 热切的海狸 vs 自恋的傻瓜
+2025-03-25 13:29:03 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:03 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_1.png
+2025-03-25 13:29:03 | INFO | 初始化系统: 热切的海狸 vs 谨慎的爱人
+2025-03-25 13:29:03 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:04 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_2.png
+2025-03-25 13:29:04 | INFO | 初始化系统: 热切的海狸 vs 隐士
+2025-03-25 13:29:04 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:04 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_3.png
+2025-03-25 13:29:04 | INFO | 初始化系统: 自恋的傻瓜 vs 热切的海狸
+2025-03-25 13:29:04 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:05 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_4.png
+2025-03-25 13:29:05 | INFO | 初始化系统: 自恋的傻瓜 vs 自恋的傻瓜
+2025-03-25 13:29:05 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:05 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_5.png
+2025-03-25 13:29:05 | INFO | 初始化系统: 自恋的傻瓜 vs 谨慎的爱人
+2025-03-25 13:29:05 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:05 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_6.png
+2025-03-25 13:29:05 | INFO | 初始化系统: 自恋的傻瓜 vs 隐士
+2025-03-25 13:29:05 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:06 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_7.png
+2025-03-25 13:29:06 | INFO | 初始化系统: 谨慎的爱人 vs 热切的海狸
+2025-03-25 13:29:06 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:06 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_8.png
+2025-03-25 13:29:06 | INFO | 初始化系统: 谨慎的爱人 vs 自恋的傻瓜
+2025-03-25 13:29:06 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:07 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_9.png
+2025-03-25 13:29:07 | INFO | 初始化系统: 谨慎的爱人 vs 谨慎的爱人
+2025-03-25 13:29:07 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:07 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_10.png
+2025-03-25 13:29:07 | INFO | 初始化系统: 谨慎的爱人 vs 隐士
+2025-03-25 13:29:07 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:08 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_11.png
+2025-03-25 13:29:08 | INFO | 初始化系统: 隐士 vs 热切的海狸
+2025-03-25 13:29:08 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:08 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_12.png
+2025-03-25 13:29:08 | INFO | 初始化系统: 隐士 vs 自恋的傻瓜
+2025-03-25 13:29:08 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:08 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_13.png
+2025-03-25 13:29:08 | INFO | 初始化系统: 隐士 vs 谨慎的爱人
+2025-03-25 13:29:08 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:09 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_14.png
+2025-03-25 13:29:09 | INFO | 初始化系统: 隐士 vs 隐士
+2025-03-25 13:29:09 | SUCCESS | 微分方程求解成功
+2025-03-25 13:29:09 | INFO | 已保存图像到: /Users/mx/Desktop/CuriosityLongtermism/romantic-dynamics-model/output/images/dynamics_15.png
+2025-03-25 13:29:09 | SUCCESS | 分析流程完成
