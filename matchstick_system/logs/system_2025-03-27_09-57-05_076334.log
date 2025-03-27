@@ -1,0 +1,8 @@
+2025-03-27 09:57:05.136 | INFO     | utils.logger:configure_logging:29 - Logging system initialized
+2025-03-27 09:57:05.137 | DEBUG    | core.database:get_rules:30 - Loading transformation rules from in-memory database
+2025-03-27 09:57:05.137 | INFO     | core.mutators:__init__:19 - Mutator initialized with latest rules
+2025-03-27 09:57:05.137 | INFO     | core.validators:__init__:16 - Validator initialized with mutator
+2025-03-27 09:57:05.137 | DEBUG    | core.database:get_rules:30 - Loading transformation rules from in-memory database
+2025-03-27 09:57:05.137 | INFO     | core.mutators:__init__:19 - Mutator initialized with latest rules
+2025-03-27 09:57:05.137 | INFO     | __main__:__init__:22 - System initialized
+2025-03-27 09:57:05.137 | ERROR    | core.database:export_rules:45 - Rule export failed: [Errno 2] No such file or directory: 'config/transformation_rules.json'
