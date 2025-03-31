@@ -1,0 +1,76 @@
+2025-03-31 11:21:01 | INFO | Starting simulation
+2025-03-31 11:21:01 | INFO | Initialized 50 boids
+2025-03-31 11:21:02 | ERROR | Update failed: operands could not be broadcast together with shapes (50,2) (50,50) 
+2025-03-31 11:21:24 | SUCCESS | Simulation completed
+2025-03-31 11:25:40,935 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,936 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,937 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,937 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,937 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,938 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,938 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,939 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,939 - INFO - Average velocity: 0.01
+2025-03-31 11:25:40,940 - INFO - Average velocity: 0.01
+2025-03-31 11:26:03 | INFO | Starting simulation
+2025-03-31 11:26:03 | SUCCESS | Simulation completed
+2025-03-31 11:26:40 | INFO | Starting simulation
+2025-03-31 11:26:40,975 - INFO - Average velocity: 0.01
+2025-03-31 11:26:46 | SUCCESS | Simulation completed
+2025-03-31 11:29:20 | INFO | 可视化系统初始化完成
+2025-03-31 11:29:20 | INFO | 启动主模拟循环
+2025-03-31 11:29:20,953 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21 | DEBUG | 帧数据已保存至 /Users/mx/Desktop/CuriosityLongtermism/boids_simulation/figures/sim_frame_000000.png
+2025-03-31 11:29:21,312 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,408 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,500 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,569 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,649 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,735 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,804 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,885 - INFO - Average velocity: 0.00
+2025-03-31 11:29:21,965 - INFO - Average velocity: 0.00
+2025-03-31 11:29:22,043 - INFO - Average velocity: 0.00
+2025-03-31 11:29:22 | DEBUG | 帧数据已保存至 /Users/mx/Desktop/CuriosityLongtermism/boids_simulation/figures/sim_frame_000010.png
+2025-03-31 11:29:22,285 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,364 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,445 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,524 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,604 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,685 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,766 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,844 - INFO - Average velocity: -0.00
+2025-03-31 11:29:22,925 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,004 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23 | DEBUG | 帧数据已保存至 /Users/mx/Desktop/CuriosityLongtermism/boids_simulation/figures/sim_frame_000020.png
+2025-03-31 11:29:23,244 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,323 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,403 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,484 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,563 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,644 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,724 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,803 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,884 - INFO - Average velocity: -0.00
+2025-03-31 11:29:23,963 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24 | DEBUG | 帧数据已保存至 /Users/mx/Desktop/CuriosityLongtermism/boids_simulation/figures/sim_frame_000030.png
+2025-03-31 11:29:24,204 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,283 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,364 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,444 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,524 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,604 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,684 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,763 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,844 - INFO - Average velocity: -0.00
+2025-03-31 11:29:24,925 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25 | DEBUG | 帧数据已保存至 /Users/mx/Desktop/CuriosityLongtermism/boids_simulation/figures/sim_frame_000040.png
+2025-03-31 11:29:25,164 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,245 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,325 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,405 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,484 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,565 - INFO - Average velocity: -0.00
+2025-03-31 11:29:25,645 - INFO - Average velocity: 0.00
+2025-03-31 11:29:25,725 - INFO - Average velocity: 0.00
+2025-03-31 11:29:25 | SUCCESS | 模拟过程正常终止
