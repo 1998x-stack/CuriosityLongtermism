@@ -28,3 +28,7 @@ include = ["funs*", "funs.sims*", "funs.references*"]
 
 [tool.setuptools.package-data]
 "funs.references" = ["data/*", "data/*/*", "好奇心和长期主义/*"]
+
+[tool.pytest.ini_options]
+# legacy experiment-internal tests (kept) are not part of the app suite
+norecursedirs = ["funs/sims/*", "references", ".venv"]
