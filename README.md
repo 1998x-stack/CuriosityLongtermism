@@ -1,30 +1,62 @@
 # CuriosityLongtermism
 
-> 「好奇心 × 长远主义」小实验集合——用模拟与建模探索好奇心驱动与长远视角下的现象。
+工厂模式（factory-mode）整合的「好奇心 × 长远主义」仿真合集，构建于 `fun-sim-core` 之上。
+每个实验是一个可插拔的 `Simulation`，通过统一的 `Registry`、YAML 配置、日志与 CLI 驱动。
 
-## 📌 项目概述
+## 架构
 
-`CuriosityLongtermism` 是一系列**小型模拟与建模实验**的合集，围绕「好奇心与长期主义」主题，以直观的仿真、建模与数据分析来探索各类动态系统与趣味问题，适合作为发散性研究与动手学习的载体。
+```
+CuriosityLongtermism/
+├─ funs/
+│  ├─ core_register.py     # 构建本应用的 Registry（懒加载注册）
+│  ├─ __main__.py          # python -m funs list|run <name> --config ...
+│  ├─ sims/                # 每个实验的 Simulation 包装（各含 sim.py）
+│  │   ├─ date_calc/  battery/  conway_game/  boids_simulation/
+│  │   ├─ romance/    matchstick_system/  tent_game/  railway/
+│  └─ references/
+│     ├─ data/             # 铁路数据（xlsx / zip / shapefile）
+│     └─ 好奇心和长期主义/   # 笔记（原样保留）
+├─ configs/                # 每个 sim 的 YAML 配置
+├─ tests/
+└─ pyproject.toml          # 依赖 fun-sim-core
+```
 
-## 🧩 包含的实验
+## 已注册仿真
 
-| 子项目 | 内容 |
-|--------|------|
-| `boids_simulation` | 群集智能（Boids）模拟 |
-| `conway_game` | 康威生命游戏 |
-| `railway_network_analysis` | 全国火车站点网络分析（含数据） |
-| `battery_degradation` | 电池衰减建模 |
-| `matchstick_system` | 火柴棍系统 |
-| `tent_game` | 帐篷游戏 |
-| `romantic-dynamics-model` | 「浪漫动力学」模型 |
-| `date_calculate` | 日期计算工具 |
-| `好奇心和长期主义` | 主题笔记 |
-| `remove_old_logs.sh` | 日志清理脚本 |
+| name | 交互 | 说明 |
+|------|------|------|
+| boids | – | 群集行为（Boids）系统 |
+| conway | – | 康威生命游戏 |
+| matchstick | – | 火柴匹配系统 |
+| romance | – | 浪漫动力学 ODE 模型 |
+| battery | – | 电池退化电化学 ODE |
+| date_calc | – | 日期/星座/工作日计算 |
+| tent | ✅ 交互 | pygame 帐篷游戏（GUI） |
+| railway | ✅ 交互 | 铁路网络分析（notebook/数据探索） |
 
-## 🚀 使用
+## 安装
 
-各子项目为独立小实验，进入对应目录即可运行（`requirements.txt` 按需安装）。
+```bash
+/opt/homebrew/bin/python3.12 -m venv .venv && source .venv/bin/activate
+pip install -e ../fun-sim-core
+pip install -e .
+pip install pytest numpy scipy PyYAML loguru imageio matplotlib
+```
 
-## 📄 License
+## 使用
+
+```bash
+python -m funs list                                   # 列出，含 [interactive] 标注
+python -m funs run date_calc --config configs/date_calc.yaml --steps 1
+python -m funs run battery  --config configs/battery.yaml
+```
+
+## 测试
+
+```bash
+./.venv/bin/python -m pytest tests/ -q
+```
+
+## License
 
 MIT

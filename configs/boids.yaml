@@ -1,0 +1,2 @@
+num_boids: 50
+steps_per_step: 2

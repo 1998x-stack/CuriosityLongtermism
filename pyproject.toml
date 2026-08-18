@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curiosity-longtermism"
+version = "0.1.0"
+description = "Factory-mode collection of curiosity & long-termism simulations built on fun-sim-core"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "PyYAML>=6.0",
+  "loguru>=0.7",
+  "imageio>=2.30",
+  "matplotlib>=3.7",
+  "fun-sim-core @ file:../fun-sim-core",
+]
+
+[project.optional-dependencies]
+# tent_game uses pygame; railway explores with pandas/geopandas — optional extras
+gui = ["pygame>=2.5"]
+geo = ["pandas", "geopandas", "openpyxl"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["funs*", "funs.sims*", "funs.references*"]
+
+[tool.setuptools.package-data]
+"funs.references" = ["data/*", "data/*/*", "好奇心和长期主义/*"]
