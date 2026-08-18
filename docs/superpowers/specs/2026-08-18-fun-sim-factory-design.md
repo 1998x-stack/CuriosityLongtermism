@@ -32,7 +32,7 @@ fun-sim/
 
 ## 3. `fun-sim-core` API (approved plan — Section B)
 
-Python 3.9+, `pyproject.toml`, package name `fun_sim_core`.
+Python 3.10+, `pyproject.toml`, package name `fun_sim_core`.
 
 ### 3.1 `Simulation` (abstract base class)
 The one standardized lifecycle every experiment implements:
@@ -129,7 +129,7 @@ CuriosityLongtermism/
 | matchstick_system | sims/matchstick.py | core; keep existing tests/ |
 | romantic-dynamics-model | sims/romance.py | core; output via OutputManager; keep `.md` |
 | tent_game (pygame) | sims/tent.py | **interactive** (see §6); pygame kept as visualize |
-| battery_degradation | sims/battery.py | minimal runnable model so it's a real sim |
+| battery_degradation | sims/battery.py | wrap existing models/degradation_mech.py into a Simulation (batch run + plot) |
 | date_calculate | sims/date_calc.py | stateless calc, no viz/export |
 | railway_network_analysis | sims/railway.py | notebook port to module; data under references/data; **interactive** |
 | 好奇心和长期主义 | references/好奇心和长期主义/ | notes verbatim |
