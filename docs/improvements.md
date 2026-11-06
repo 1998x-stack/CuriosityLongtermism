@@ -1,0 +1,14 @@
+### 2026-11-06 15:21 UTC — ChatGPT Portfolio Iteration
+- Run ID: portfolio-20261106T152151Z-9544
+- Repo / Base SHA: 1998x-stack/CuriosityLongtermism / 9f8ce2882047063ca37ae7d79b19c51b957b66ec
+- Historical context: Default-branch docs/improvements.md confirmed 404; no previous entries; repository PR search returned none.
+- Product problem & expected user value: Contributors running pytest in a non-.venv interpreter should be able to run the simulation suite; interactive setup checks should not accidentally execute a simulation step.
+- Engineering diagnosis & evidence: tests/test_sims.py hard-coded ROOT/.venv/bin/python even though pytest may run under any interpreter, and interactive test called _run(name) before setup-only check, invoking step unnecessarily.
+- Options & decision: (1) interpreter mismatch P2 score 14; (2) unnecessary interactive step P2 score 12; (3) missing subprocess timeout P3 score 8. Fix interpreter and tightly coupled interactive test side effect.
+- Changes: tests/test_sims.py uses sys.executable, adds subprocess contract regression, and removes redundant interactive step; no production API changed.
+- Validation: A: isolated Python 3 pytest 9.0.2, python -m pytest tests/test_sims.py -q -k subprocess_uses_current_interpreter: 1 passed, 3 deselected; C: python -m py_compile tests/test_sims.py succeeded. D: full integration suite not run (fun-sim-core sibling dependency unavailable in execution container). No CI pass asserted.
+- Security & regression review: No secrets, permissions, deployment, production data or dependencies modified; subprocess remains scoped to test suite.
+- Risk & rollback: Low test-harness risk; close PR or revert test-file commit. Full suite must run in repository environment before merge.
+- Follow-up: Run complete pytest with installed fun-sim-core and verify interactive setup paths.
+- Commit: 2a1879dd3c43dfdf14829e0b03d2b38be26e65ee
+- PR: https://github.com/1998x-stack/CuriosityLongtermism/pull/1
