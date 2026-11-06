@@ -11,4 +11,4 @@
 - Risk & rollback: Low test-harness risk; close PR or revert test-file commit. Full suite must run in repository environment before merge.
 - Follow-up: Run complete pytest with installed fun-sim-core and verify interactive setup paths.
 - Commit: 2a1879dd3c43dfdf14829e0b03d2b38be26e65ee
-- PR: pending
+- PR: https://github.com/1998x-stack/CuriosityLongtermism/pull/1
