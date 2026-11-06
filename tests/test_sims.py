@@ -3,7 +3,7 @@ import sys
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PY = os.path.join(ROOT, ".venv", "bin", "python")
+PY = sys.executable
 
 HEADLESS = ["date_calc", "battery", "conway", "boids", "romance", "matchstick"]
 INTERACTIVE = ["tent", "railway"]
@@ -20,6 +20,25 @@ def _run(name):
     return p
 
 
+
+def test_subprocess_uses_current_interpreter(monkeypatch):
+    calls = []
+
+    def fake_run(command, **kwargs):
+        calls.append((command, kwargs))
+        return subprocess.CompletedProcess(command, 0, stdout="OK", stderr="")
+
+    monkeypatch.setattr(subprocess, "run", fake_run)
+    result = _run("date_calc")
+    assert result.returncode == 0
+    assert len(calls) == 1
+    command, kwargs = calls[0]
+    assert command[0] == sys.executable
+    assert command[1] == "-c"
+    assert kwargs["cwd"] == ROOT
+    assert kwargs["capture_output"] is True
+
+
 def test_all_headless_step():
     for name in HEADLESS:
         p = _run(name)
@@ -29,17 +48,15 @@ def test_all_headless_step():
 
 def test_interactive_listed_but_not_headless():
     for name in INTERACTIVE:
-        p = _run(name)  # interactive selects step->NotImplemented only when stepping
-        # railway/tent setup should work; step may raise — verify setup path runs
+        # Interactive simulations should only be checked for setup, never stepped.
         code = (
             "from funs.core_register import build_registry\n"
             f"r = build_registry()\n"
             f"s = r.create('{name}'); s.configure({{}})\n"
-            "r2 = None\n"
             f"print('setup', s.setup())\n"
         )
-        p2 = subprocess.run([PY, "-c", code], cwd=ROOT, capture_output=True, text=True)
-        assert p2.returncode == 0, f"{name} setup failed:\n{p2.stderr[-1200:]}"
+        p = subprocess.run([PY, "-c", code], cwd=ROOT, capture_output=True, text=True)
+        assert p.returncode == 0, f"{name} setup failed:\n{p.stderr[-1200:]}"
 
 
 def test_registry_lists_all_and_interactive_tags():
